@@ -2,7 +2,7 @@ const readline = require('readline')
 const { validateArgs } = require('./utils/validateArgs')
 const { Game } = require('./models/rpsGame')
 const { HelpTable } = require('./models/HelpTable')
-const { promptUser } = require('./controllers/gameController.js')
+const { promptUser } = require('./controllers/gameController')
 
 const args = process.argv.slice(2);
 validateArgs(args)
