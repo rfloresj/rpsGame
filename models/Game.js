@@ -23,7 +23,7 @@ class Game {
     if (userIndex === computerIndex) {
       return 'Draw';
     } else if (
-      (userIndex - computerIndex + this.move.length) % this.moves.length <=
+      (userIndex - computerIndex + this.moves.length) % this.moves.length <=
       half
     ) {
       return 'You win!';

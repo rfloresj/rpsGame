@@ -17,19 +17,20 @@ class HelpTable {
       });
       table.addRow(row);
     });
-    table.printTable;
+
+    table.printTable();
   }
 
-  getResult(pcIndex, userIndex){
+  getResult(pcIndex, userIndex) {
     const half = Math.floor(this.moves.length / 2);
-    if (pcIndex === userIndex){
-        return 'Draw';
-    } else if ((pcIndex - userIndex + this.moves.length) % this.moves.length <= half){
-        return 'Win';
+    if (pcIndex === userIndex) {
+      return 'Draw';
+    } else if ((pcIndex - userIndex + this.moves.length) % this.moves.length <= half) {
+      return 'Win';
     } else {
-        return 'Lose';
+      return 'Lose';
     }
   }
 }
 
-module.exports = { HelpTable }
+module.exports = { HelpTable };
