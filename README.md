@@ -3,6 +3,7 @@ A generalized rock-paper-scissors CLI game with arbitrary number of moves and co
 
 Project Structure
 
+`
 rpsGame/
 │
 ├── index.js
@@ -15,4 +16,5 @@ rpsGame/
 │   └── HelpTable.js
 └── controllers/
     └── gameController.js
+    `
 
