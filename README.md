@@ -16,5 +16,4 @@ rpsGame/
 │   └── HelpTable.js
 └── controllers/
     └── gameController.js
-    ```
 
