@@ -86,3 +86,16 @@ HMAC key: 48d4e463e01b4fb0b445bff7e6a907dc
 ### Help Table
 Help Table
 to display the help table showing possible outcomes for all move combinations, enter ? at the prompt.
+
+## 🤝 Contribution Guidelines
+Fork the Repository:
+Create your own fork of the project to work on.
+
+Create a New Branch:
+Use a descriptive name for your branch, such as feature-new-mode or bugfix-edge-case.
+
+Make Your Changes:
+Ensure your code follows consistent style and includes comments where necessary.
+
+Submit a Pull Request:
+Open a pull request to the main branch, describing your changes clearly.
