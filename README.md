@@ -87,7 +87,7 @@ HMAC key: 48d4e463e01b4fb0b445bff7e6a907dc
 Help Table
 to display the help table showing possible outcomes for all move combinations, enter ? at the prompt.
 
-## 🤝 Contribution Guidelines
+## 🤝 Contributing
 Fork the Repository:
 Create your own fork of the project to work on.
 
